@@ -36,7 +36,7 @@ val_dataloader:
   dataset: 
     type: CocoDetection
     img_folder: ./dataset/split_train/train_model/val/images/
-    ann_file: ./dataset/split_train/train_model/val/instances_val2017.json/
+    ann_file: ./dataset/split_train/train_model/val/instances_val2017.json
     return_masks: False
     transforms:
       type: Compose
